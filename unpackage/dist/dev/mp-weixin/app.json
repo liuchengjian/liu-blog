@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/hot/hot",
+    "pages/hot-video/hot-video"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#fa4d62",
+    "list": [
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "热搜",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "热播",
+        "iconPath": "static/follow.png",
+        "selectedIconPath": "static/follow-active.png"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "我的",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
