@@ -9,7 +9,7 @@
 		</view>
 		<view class="tab-sticky">
 			<my-tab :tabData="tabList" :defaultIndex="currentIndex" :config="{
-				textColor:'#333333'
+				textColor:'#000000'
 			}" @tabClick="onTabClilk"></my-tab>
 		</view>
 		<swiper class="swiper" :current="currentIndex" :style="{height:currentSwiperHeight+'px'}"
